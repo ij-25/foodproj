@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 120px;
+  width: 1052px;
+}
+
+.container {
+  height: 29px;
+  width: 152px;
+}
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+nav ul {
+  height: 50px;
+  display: flex;
+  justify-content: end;
+}
+nav ul li {
+  padding: 0 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: aliceblue;
+  text-decoration: underline;
+}
+.rectangle {
+  position: absolute;
+  width: 579px;
+  height: 396px;
+  left: 934px;
+  top: 150px;
+  background: #fedc01;
+  border-radius: 32px;
+  transform: rotate(-90deg);
+}
+.slider {
+  margin-top: 10px;
+  position: absolute;
+  left: 700px;
+}
+.fruits {
+  position: absolute;
+  width: 147px;
+  height: 142px;
+  left: 803px;
+  top: 528px;
+}
+
+.text {
+  margin-left: 10px;
+  display: flex;
+  width: 170px;
+  height: 29.03px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2e2e2e;
+}
+.text1 {
+  margin-left: 5px;
+  display: flex;
+  width: 587px;
+  height: 98.11px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53.3267px;
+  line-height: 49px;
+  color: #000000;
+}
+.text2 {
+  margin-left: 20px;
+  display: flex;
+  width: 579px;
+  height: 66.07px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2e2e2e;
+}
+.search {
+  margin: 10px;
+padding: 20px;
+width: 500px;
+  margin-top: 20px;
+  display: flex;
+  width: 707.35px;
+  height: 71.33px;
+  background: #ffffff;
+  box-shadow: 0px 3.79798px 13.2929px rgba(0, 0, 0, 0.25);
+  border-radius: 47.4747px;
+}
+.search button :hover {
+  background: #478fe8;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
